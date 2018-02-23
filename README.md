@@ -1,2 +1,3 @@
-## diplomado20182
-Ejercicios y ejemplos del diplomado iosLab UNAM 2018-2
+# diplomado20182
+___
+## Ejercicios y ejemplos del diplomado iosLab UNAM 2018-2
