@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "prueba/ViewController.swift"
+            timestampString = "541666330.478699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prueba.ViewController.outtletText.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Donato/Downloads/diplomado-master/exercises/whatHappenedToMe/prueba/ViewController.swift"
+                  timestampString = "541664888.350085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prueba.ViewController.outtletText.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Donato/Downloads/diplomado-master/exercises/whatHappenedToMe/prueba/ViewController.swift"
+                  timestampString = "541664888.354777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prueba.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; prueba.ViewController"
+                  moduleName = "prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Donato/Downloads/diplomado-master/exercises/whatHappenedToMe/prueba/ViewController.swift"
+                  timestampString = "541664888.35735"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prueba.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;prueba.ViewController&gt;"
+                  moduleName = "prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Donato/Downloads/diplomado-master/exercises/whatHappenedToMe/prueba/ViewController.swift"
+                  timestampString = "541664888.3592269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
