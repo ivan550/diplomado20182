@@ -3,7 +3,7 @@
 //  WorldTrotter
 //
 //  Created by IvánMS on 15/03/18.
-//  Copyright © 2018 Big Nerd Ranch. All rights reserved.
+//  Copyrizght © 2018 Big Nerd Ranch. All rights reserved.
 //
 
 import UIKit

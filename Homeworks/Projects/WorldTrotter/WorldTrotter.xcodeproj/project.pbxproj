@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C836E0C6205B896F00112765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836E0C5205B896F00112765 /* AppDelegate.swift */; };
-		C836E0C8205B896F00112765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836E0C7205B896F00112765 /* ViewController.swift */; };
 		C836E0CB205B896F00112765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C836E0C9205B896F00112765 /* Main.storyboard */; };
 		C836E0CD205B896F00112765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C836E0CC205B896F00112765 /* Assets.xcassets */; };
 		C836E0D0205B896F00112765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C836E0CE205B896F00112765 /* LaunchScreen.storyboard */; };
 		C836E0DB205B897000112765 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836E0DA205B897000112765 /* WorldTrotterTests.swift */; };
 		C836E0E6205B897000112765 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C836E0E5205B897000112765 /* WorldTrotterUITests.swift */; };
+		C8CE5DBA20BB8F2C005DC049 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CE5DB920BB8F2C005DC049 /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		C836E0C2205B896F00112765 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C836E0C5205B896F00112765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C836E0C7205B896F00112765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C836E0CA205B896F00112765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C836E0CC205B896F00112765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C836E0CF205B896F00112765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		C836E0E1205B897000112765 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C836E0E5205B897000112765 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		C836E0E7205B897000112765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CE5DB920BB8F2C005DC049 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				C836E0C5205B896F00112765 /* AppDelegate.swift */,
-				C836E0C7205B896F00112765 /* ViewController.swift */,
 				C836E0C9205B896F00112765 /* Main.storyboard */,
 				C836E0CC205B896F00112765 /* Assets.xcassets */,
 				C836E0CE205B896F00112765 /* LaunchScreen.storyboard */,
 				C836E0D1205B896F00112765 /* Info.plist */,
+				C8CE5DB920BB8F2C005DC049 /* ConversionViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Big Nerd Ranch";
 				TargetAttributes = {
 					C836E0C1205B896F00112765 = {
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C836E0C8205B896F00112765 /* ViewController.swift in Sources */,
+				C8CE5DBA20BB8F2C005DC049 /* ConversionViewController.swift in Sources */,
 				C836E0C6205B896F00112765 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +329,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +337,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +388,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +396,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
